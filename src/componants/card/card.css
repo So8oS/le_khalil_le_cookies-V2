@@ -1,0 +1,75 @@
+.card-container {
+    width: 350px;
+    overflow: hidden;
+    height: 660px;
+    text-align: center;
+    transition: all 0.1s;
+    border-radius: 25px;
+    margin: 2cm;
+    
+    /* Option 1*/
+    background: #ebcc9b;
+    /* Option 2*/
+    /* background: #6e8894; */
+  
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05, 1.05);
+  }
+  
+  .pic img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+
+  }
+  
+  .name {
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+  }
+  
+  .details {
+    font-size: 20px;
+    height: 115px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  .item-name {
+    font-family: "VT323", monospace;
+    text-align: center;
+  }
+  .paying {
+    text-align: center;
+  }
+  
+  .add {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: "VT323", monospace;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    /* Option 1 */
+    background: #f45867;
+    border: solid #f45867 2px;
+    /* Option 2 */
+    /* background: #a26769;
+    border: solid #a26769 2px;
+     */
+  }
+  
+  .add:hover {
+    background: #a66f6f;
+    text-decoration: none;
+  }
