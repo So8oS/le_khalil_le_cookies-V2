@@ -5,6 +5,7 @@ import { Footer } from "./componants/footer/footer";
 import { Whoarewe } from "./pages/whoarewe/whoarewe";
 import { Routes, Route } from "react-router-dom";
 import { Cartdropdown } from "./componants/cartdropdown/cartdropdown";
+import { Contactus } from "./pages/contactus/contactus";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/whoarewe" element={<Whoarewe />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
       <Footer />
     </div>

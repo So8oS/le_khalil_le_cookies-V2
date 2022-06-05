@@ -17,7 +17,7 @@ export const Navbar = () => {
         </Link>
 
         <ul className="nav-items">
-          <Link className="nav-link" to= './' >
+          <Link className="nav-link" to= './contactus' >
             <li className="nav-item">Contact us</li>
           </Link>
 
@@ -27,6 +27,7 @@ export const Navbar = () => {
         <li className="nav-item">
         <Cart />
         </li>
+        
         </ul>
         {/* <Cartdropdown /> */}
       </nav>
