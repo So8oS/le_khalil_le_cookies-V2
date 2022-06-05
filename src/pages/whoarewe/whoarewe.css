@@ -1,0 +1,16 @@
+.w-container{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    min-height: 90vh;
+}
+.box{
+background-color: #ebcc9b;
+border-radius: 25px;
+padding: 5rem;
+width: 50rem;
+
+
+}

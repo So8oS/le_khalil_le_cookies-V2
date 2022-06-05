@@ -25,7 +25,7 @@ export const cookies = [
     price: "5 TL",
   },
   {
-    id: 2,
+    id: 4,
     pic: brownie,
     name: "Brownie",
     disc: "A chocolate brownie or simply a brownie is a square or rectangular chocolate baked confection.",

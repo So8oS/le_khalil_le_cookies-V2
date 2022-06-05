@@ -7,6 +7,9 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* https://getcssscan.com/css-box-shadow-examples */
+    
+    
+
   }
   
   .title-container {
@@ -18,6 +21,7 @@
   .title-name {
     font-family: 'Pacifico', cursive;
     padding-left: 10px;
+    font-size: 1.5rem;
   }
   
   .title-logo {
@@ -26,7 +30,7 @@
   
   .nav-items {
     list-style: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     display: flex;
   }
   
@@ -34,3 +38,6 @@
     padding: 10px 15px;
   }
   
+  .nav-link{
+    cursor: pointer;
+  }
