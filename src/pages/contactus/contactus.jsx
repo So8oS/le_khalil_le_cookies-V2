@@ -10,26 +10,43 @@ export const Contactus = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      emailjs.sendForm('gmail', 'template_3nth5o9', form.current, 'gCcVEYirrfV4fhGRt')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
+        e.target.reset();
+        alert("the email has been sent");
     };
   
     return (
-     <div className='contact-container'>
+     <div className='contact-page'>
        <div className='contact-box'>
-            <form ref={form} onSubmit={sendEmail}>
-                <h1>Name</h1>
-                <input type="text" name="user_name" />
+           <div className='title-box'>
+                <h1 className='contact-title'>Contact us</h1>
+           </div>
+            <form className='form' ref={form} onSubmit={sendEmail}>
+                <div className='form-info'>
+                    <div className='form-input'>
+                        <p className='p'>Name:</p>
+                        <input type="text" name="user_name" placeholder='Name' />
+                    </div>
+                    <div className='form-input'>
 
-                <h1>Email</h1>
-                <input type="email" name="user_email" />
-                <h1>Message</h1>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+                        <p className='p'>Email:</p>
+                        <input type="email" name="user_email" placeholder='Email'/>
+                    </div>
+                    <div className='form-input'>
+
+                        <p className='p'>Message:</p>
+                        <input name="message" placeholder='Message' />
+                    </div>
+
+                </div>
+                    
+                
+                <input className='submit' type="submit" value="Send" />
             </form>
         </div>  
      </div>   
