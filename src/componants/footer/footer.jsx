@@ -10,11 +10,11 @@ export const Footer = () => {
      <div className="footer-container">
       <div className="icons">
 
-        <a href="https://github.com/So8oS/le_khalil_le_cookies-V2">
+        <a href="https://github.com/So8oS/le_khalil_le_cookies-V2" target="_blank">
           <FontAwesomeIcon icon={faGithub} className="icon1" />
         </a>   
 
-        <a href="https://www.instagram.com/cookiemonster.ist/">
+        <a href="https://www.instagram.com/cookiemonster.ist/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} className="icon2" href="https://www.instagram.com/cookiemonster.ist/" />
         </a>   
 

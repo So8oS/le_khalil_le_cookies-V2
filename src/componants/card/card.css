@@ -61,8 +61,10 @@
     text-decoration: none;
     cursor: pointer;
     /* Option 1 */
+    
     background: #f45867;
     border: solid #f45867 2px;
+    
     /* Option 2 */
     /* background: #a26769;
     border: solid #a26769 2px;

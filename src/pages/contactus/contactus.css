@@ -34,7 +34,7 @@ justify-content: center;
     
 }
 
-input {
+.contactus-input {
     height: 3.5rem;
     border-radius: 25px;
     border: none;
@@ -70,13 +70,10 @@ input {
     border: solid #f45867 2px;
     text-align: center;
     align-items: center;
+    height: 3rem;
    
 }
 
 
-
-textarea{
-  resize: none;
-}
 
 
