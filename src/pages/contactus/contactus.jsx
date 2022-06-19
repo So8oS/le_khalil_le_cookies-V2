@@ -30,17 +30,17 @@ export const Contactus = () => {
                 <div className='form-info'>
                     <div className='form-input'>
                         <p className='p'>Name:</p>
-                        <input className='contactus-input'type="text" name="user_name" placeholder='Name' />
+                        <input className='contactus-input'type="text" name="user_name" placeholder='Name' required />
                     </div>
                     <div className='form-input'>
 
                         <p className='p'>Email:</p>
-                        <input className='contactus-input' type="email" name="user_email" placeholder='Email'/>
+                        <input className='contactus-input' type="email" name="user_email" placeholder='Email' required />
                     </div>
                     <div className='form-input'>
 
                         <p className='p'>Message:</p>
-                        <input className='contactus-input' name="message" placeholder='Message' />
+                        <input className='contactus-input' name="message" placeholder='Message' required />
                     </div>
 
                 </div>

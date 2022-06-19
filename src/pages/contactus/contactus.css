@@ -12,6 +12,8 @@ border-radius: 25px;
 padding: 2rem;
 width: 30rem;
 height: 50rem;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 }
 .form{
 padding-top: 2rem;

@@ -32,9 +32,8 @@
   }
   
   .name {
-    font-weight: bold;
     height: 80px;
-    text-align: center;
+    /* text-align: center; */
   }
   
   .details {
@@ -45,7 +44,7 @@
   }
   
   .item-name {
-    font-family: "VT323", monospace;
+    font-family: 'Pacifico', cursive;
     text-align: center;
   }
   .paying {

@@ -38,25 +38,4 @@ export const cookies = [
     disc: "A chocolate chip cookie is a drop cookie that features chocolate chips or chocolate morsels as its distinguishing ingredient",
     price: "3 TL",
   },
-  {
-    id: 6,
-    pic: brownie,
-    name: "Brownie",
-    disc: "A chocolate brownie or simply a brownie is a square or rectangular chocolate baked confection.",
-    price: "5 TL",
-  },
-  {
-    id: 7,
-    pic: muffin2,
-    name: "Vanilla Muffin",
-    disc: "A muffin is an individual-sized, baked product.",
-    price: "5 TL",
-  },
-  {
-    id: 8,
-    pic: brownie,
-    name: "Brownie",
-    disc: "A chocolate brownie or simply a brownie is a square or rectangular chocolate baked confection.",
-    price: "5 TL",
-  },
 ];
