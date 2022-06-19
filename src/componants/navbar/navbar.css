@@ -25,7 +25,7 @@
   }
   
   .title-logo {
-    width: 45px;
+    width: 3rem;
   }
   
   .nav-items {
@@ -48,8 +48,17 @@
       margin-left: 0px;
       font-size: 1.2rem;
     }
+    .title-logo {
+      width: 2.5rem;
+    }
+    
+
+
     .nav-items {
       font-size: 1rem;
+    }
+    .nav-item {
+      padding: 7px 13px;
     }
   }
 
@@ -58,7 +67,33 @@
       margin-left: 0px;
       font-size: 1rem;
     }
+
+    .title-logo {
+      width: 2rem;
+    }
+    
     .nav-items {
       font-size: 0.8rem;
+    }
+    .nav-item {
+      padding: 4px 10px;
+    }
+  }
+
+  @media only screen and (max-width: 455px) {
+    .title-name {
+      margin-left: 0px;
+      font-size: 0.7rem;
+    }
+
+    .title-logo {
+      width: 1.5rem;
+    }
+    
+    .nav-items {
+      font-size: 0.8rem;
+    }
+    .nav-item {
+      padding: 4px 10px;
     }
   }
