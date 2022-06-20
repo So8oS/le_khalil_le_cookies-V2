@@ -28,8 +28,8 @@ export const Card = ({ id,name, pic, disc, price }) => {
   return (
     <div>
       <div className="card-container">
-        <div className="pic">
-          <img src={pic} alt="" />
+        <div className="card-img-container">
+          <img className="card-img" src={pic} alt="" />
         </div>
 
         <div className="name">
