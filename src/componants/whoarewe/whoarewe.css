@@ -1,0 +1,64 @@
+.box{
+    background-color: #ebcc9b;
+    border-radius: 25px;
+    padding: 3rem;
+    width: 60rem;
+    height: 40rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+    
+    
+    }
+    
+    .whoarewe-img{
+        border-radius: 25px;
+        width: 23rem;
+    }
+    
+    .description{
+        font-size: 1.5rem;
+    }
+    
+    .img-box{
+    padding-bottom: 2rem;
+    
+    
+    }
+    .title{ 
+        font-family: 'Pacifico', cursive;
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        padding-bottom: 0.6rem;
+        padding-top: 0.6rem;
+        font-size: 2rem;
+    }
+    
+    
+    
+    @media only screen and (max-width: 980px) {
+        .box{
+            width: 45rem;
+            }
+    
+        .title{ 
+            font-size: 1.7rem;
+        }
+            
+            .description{
+                font-size: 1.2rem;
+            }
+            
+            
+      }
+    
+      @media only screen and (max-width: 650px) {
+        .box{
+            width: 30rem;
+            }
+        .title{ 
+            font-size: 1.4rem;
+        }    
+            .description{
+                font-size: 1rem;
+            }
+      }
