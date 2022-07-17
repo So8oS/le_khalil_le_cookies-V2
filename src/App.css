@@ -1,8 +1,10 @@
 .App {
   text-align: center;
-  font-family: 'VT323', monospace;
-  
-
+  font-family: "VT323", monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
 
 body {
@@ -10,9 +12,8 @@ body {
 
   background-image: url("../src/assests/pattern18px.png");
   background-color: #8a653b;
-  
+
   /* Option 2  */
-  
+
   /* background-color: #2a324b;   */
 }
-

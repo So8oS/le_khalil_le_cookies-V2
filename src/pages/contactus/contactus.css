@@ -1,81 +1,71 @@
-.contact-page{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-    /* align-content: center; */
-    min-height: 90vh;
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* align-content: center; */
+  min-height: 90vh;
 }
-.contact-box{
-background-color: #ebcc9b;
-border-radius: 25px;
-padding: 2rem;
-width: 30rem;
-height: 50rem;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
+.contact-box {
+  background-color: #ebcc9b;
+  border-radius: 25px;
+  padding: 2rem;
+  width: 30rem;
+  height: 50rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.form{
-padding-top: 2rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
+.form {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.form-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 5rem;
-    
+.form-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5rem;
 }
-.form-input{
-
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1rem;
-    
+.form-input {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
 }
 
 .contactus-input {
-    height: 3.5rem;
-    border-radius: 25px;
-    border: none;
-    text-align: center;
-
+  height: 3.5rem;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
 }
 
-.p{
-    font-size: 1.5rem;
+.p {
+  font-size: 1.5rem;
 }
 
-.contact-title{ 
-    font-family: 'Pacifico', cursive;
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
-    padding-bottom: 0.6rem;
-    padding-top: 0.6rem;
+.contact-title {
+  font-family: "Pacifico", cursive;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
 }
 
-.submit{
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 25px;
-    text-shadow: 1px 1px 3px #666666;
-    font-family: "VT323", monospace;
-    color: #ffffff;
-    font-size: 1rem;
-    /* padding: 1rem; */
-    text-decoration: none;
-    cursor: pointer;
-    /* Option 1 */
-    background: #f45867;
-    border: solid #f45867 2px;
-    text-align: center;
-    align-items: center;
-    height: 3rem;
-   
+.submit {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 25px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: "VT323", monospace;
+  color: #ffffff;
+  font-size: 1rem;
+  /* padding: 1rem; */
+  text-decoration: none;
+  cursor: pointer;
+  /* Option 1 */
+  background: #f45867;
+  border: solid #f45867 2px;
+  text-align: center;
+  align-items: center;
+  height: 3rem;
 }
-
-
-
-
