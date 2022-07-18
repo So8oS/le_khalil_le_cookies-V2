@@ -2,7 +2,7 @@ import React from 'react'
 import signup  from "./signup.module.css"
 import { useState } from 'react'
 import { createAuthUserWithEmailAndPassword,createUserDocumentFromAuth } from '../../firebase'
-
+import { formswitch } from '../../pages/signinpage/signinpage'
 const defaultFormFields ={
   displayName: '',
   email:'',
@@ -10,7 +10,7 @@ const defaultFormFields ={
 }
 
 
-export const Signup = () => {
+export const Signup = ({formswitch}) => {
 
   const [formFirelds , setFormFields] = useState(defaultFormFields);
   const  {displayName,email,password} = formFirelds;
@@ -41,7 +41,14 @@ export const Signup = () => {
   return (
         <div className={signup.container}>
           <div className={signup.title_container} >
-              <h1  className={signup.title} >Sign up</h1></div>
+              <h1  className={signup.title} >Sign up</h1>
+          </div>
+          <div >
+            <p>Already have an acount?</p>
+            <p style={{cursor:"pointer",fontWeight:"bold"}}
+             onClick={formswitch}
+             >Sign in</p>
+          </div>
 
           <form className={signup.form} onSubmit={handleSubmit} >
 
@@ -68,6 +75,7 @@ export const Signup = () => {
               </div>
               
           </form>
+          
 
       </div> 
 

@@ -8,13 +8,14 @@ import {
 
 
 
+
 const defaultFormFields ={
    
     email:'',
     password:''
   }
   
-export const Signin = () => {
+export const Signin = ({formswitch}) => {
     const [formFields, setFormFields] = useState(defaultFormFields);
     const { email, password } = formFields;
   
@@ -86,6 +87,7 @@ export const Signin = () => {
             </div>
 
         </form>
+        <button onClick={formswitch} >Sign up</button>
 
     </div> 
   )

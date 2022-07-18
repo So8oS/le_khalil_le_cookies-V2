@@ -24,12 +24,14 @@ export const Navbar = () => {
         <Link className="nav-link" to= './whoarewe' >
         <li className="nav-item">Who Are We </li>
         </Link>
+        <Link className="nav-link" to= './Signinpage' >
+        <li className="nav-item">Sign in</li>
+        </Link>
         <li className="nav-item">
         <Cart />
         </li>
         
         </ul>
-        {/* <Cartdropdown /> */}
       </nav>
     </Fragment>
   );
