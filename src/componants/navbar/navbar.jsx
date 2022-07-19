@@ -19,7 +19,7 @@ export const Navbar = () => {
         </Link>
 
                   {/* <ul className="nav-items active"> */}
-                  <ul className={`${open ? "nav-items " :"nav-items active"}`}>
+                  <ul className={`${!open ? "nav-items " :"nav-items active"}`}>
                       <Link onClick={() => {setOpen(!open)}} className="nav-link" to= './contactus' >
                         <li className="nav-item">Contact us</li>
                       </Link>
@@ -36,8 +36,9 @@ export const Navbar = () => {
                   
                   <div onClick=
                   {
-                    () => {setOpen(!open);
-                    console.log("🚀 ~ file: navbar.jsx ~ line 40 ~ Navbar ~ open", open)
+                    () => {
+                      setOpen(!open);
+                      console.log("🚀 ~ file: navbar.jsx ~ line 40 ~ Navbar ~ open", open)
                     }
                     } className="hamburger" >
                     <span className="bar" ></span>
