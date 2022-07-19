@@ -16,22 +16,28 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        <ul className="nav-items">
-          <Link className="nav-link" to= './contactus' >
-            <li className="nav-item">Contact us</li>
-          </Link>
+                  <ul className="nav-items active">
+                    
+                    <Link className="nav-link" to= './contactus' >
+                      <li className="nav-item">Contact us</li>
+                    </Link>
 
-        <Link className="nav-link" to= './whoarewe' >
-        <li className="nav-item">Who Are We </li>
-        </Link>
-        <Link className="nav-link" to= './Signinpage' >
-        <li className="nav-item">Sign in</li>
-        </Link>
-        <li className="nav-item">
-        <Cart />
-        </li>
-        
-        </ul>
+                  <Link className="nav-link" to= './whoarewe' >
+                  <li className="nav-item">Who Are We </li>
+                  </Link>
+                  <Link className="nav-link" to= './Signinpage' >
+                  <li className="nav-item">SignIn</li>
+                  </Link>
+                  <li className="nav-item">
+                  <Cart />
+                  </li>
+                  
+                  </ul>
+                  <div className="hamburger" >
+                    <span className="bar" ></span>
+                    <span className="bar" ></span>
+                    <span className="bar" ></span>
+                  </div>
       </nav>
     </Fragment>
   );

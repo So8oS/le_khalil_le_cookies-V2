@@ -51,7 +51,7 @@
             
       }
     
-      @media only screen and (max-width: 650px) {
+      @media only screen and (max-width: 730px) {
         .box{
             width: 30rem;
             }
@@ -80,19 +80,3 @@
       }
 
 
-
-      @media only screen and (max-width: 420px) {
-        .box {
-          width: 20rem;
-        }
-        .whoarewe-img {
-          border-radius: 25px;
-          width: 15rem;
-        }
-        .title {
-          font-size: 1.4rem;
-        }
-        .description {
-          font-size: 1rem;
-        }
-      }
