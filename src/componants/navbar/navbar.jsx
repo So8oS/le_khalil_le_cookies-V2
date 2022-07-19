@@ -1,11 +1,13 @@
-import React from "react";
+import React,{useState} from "react";
 import "./navbar.css";
 import Logo from "./logo.svg";
 import { Outlet ,Link } from "react-router-dom";
 import { Fragment } from "react";
 import { Cart } from "../cart/cart";
 import { Cartdropdown } from "../cartdropdown/cartdropdown";
+
 export const Navbar = () => {
+  const [open,setOpen] = useState(false)
   return (
     <Fragment>
       <nav className="container">
@@ -16,24 +18,28 @@ export const Navbar = () => {
           </div>
         </Link>
 
-                  <ul className="nav-items active">
-                    
-                    <Link className="nav-link" to= './contactus' >
-                      <li className="nav-item">Contact us</li>
-                    </Link>
-
-                  <Link className="nav-link" to= './whoarewe' >
-                  <li className="nav-item">Who Are We </li>
-                  </Link>
-                  <Link className="nav-link" to= './Signinpage' >
-                  <li className="nav-item">SignIn</li>
-                  </Link>
-                  <li className="nav-item">
-                  <Cart />
-                  </li>
-                  
+                  {/* <ul className="nav-items active"> */}
+                  <ul className={`${open ? "nav-items " :"nav-items active"}`}>
+                      <Link onClick={() => {setOpen(!open)}} className="nav-link" to= './contactus' >
+                        <li className="nav-item">Contact us</li>
+                      </Link>
+                      <Link onClick={() => {setOpen(!open)}} className="nav-link" to= './whoarewe' >
+                      <li  className="nav-item">Who Are We </li>
+                      </Link>
+                      <Link onClick={() => {setOpen(!open)}} className="nav-link" to= './Signinpage' >
+                      <li className="nav-item">SignIn</li>
+                      </Link>
+                      <li className="nav-item">
+                      <Cart />
+                      </li>
                   </ul>
-                  <div className="hamburger" >
+                  
+                  <div onClick=
+                  {
+                    () => {setOpen(!open);
+                    console.log("🚀 ~ file: navbar.jsx ~ line 40 ~ Navbar ~ open", open)
+                    }
+                    } className="hamburger" >
                     <span className="bar" ></span>
                     <span className="bar" ></span>
                     <span className="bar" ></span>

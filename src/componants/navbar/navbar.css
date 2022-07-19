@@ -77,8 +77,8 @@
 
     .nav-items{
       position: absolute;
-      left: -100%;
-      top: 30px;
+      /* right:-100%; */
+      top: -100%;
       flex-direction: column;
       background-color: #eee5e5;
       width: 100%;
@@ -91,7 +91,7 @@
     }
 
     .nav-items.active{
-      left:0;
+      top:30px;
     }
  
  
