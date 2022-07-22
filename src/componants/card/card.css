@@ -65,7 +65,7 @@
      */
   }
   
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     .card-container {
       width: 320px;
       height: 630px;
@@ -92,5 +92,35 @@
   
   
  
+  }
+
+
+  @media only screen and (max-width: 400px) {
+    .card-container {
+      width: 300px;
+      height: 610px;
+    }
+    .card-container:hover {
+      transform: scale(1, 1);
+    }
+    .card-img-container {
+      padding-bottom: 20px;
+  
+    }
+    .card-img{
+    width: 320px;
+    }
+    .name {
+      height: 70px;
+    }
+    .details {
+      font-size: 1.3rem;
+      height: 115px;
+      text-align: center;
+      padding: 0px 15px 0px 15px;
+    }
+    .add {
+      font-size: 18px;
+    }
   }
 

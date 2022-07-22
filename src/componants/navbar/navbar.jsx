@@ -5,6 +5,8 @@ import { Outlet ,Link } from "react-router-dom";
 import { Fragment } from "react";
 import { Cart } from "../cart/cart";
 import { Cartdropdown } from "../cartdropdown/cartdropdown";
+import menu2 from  "../../assests/menu2.png"
+
 
 export const Navbar = () => {
   const [open,setOpen] = useState(false)
@@ -41,9 +43,10 @@ export const Navbar = () => {
                       console.log("🚀 ~ file: navbar.jsx ~ line 40 ~ Navbar ~ open", open)
                     }
                     } className="hamburger" >
+                      <img src={menu2} className="menu" alt="menu" />
+                    {/* <span className="bar" ></span>
                     <span className="bar" ></span>
-                    <span className="bar" ></span>
-                    <span className="bar" ></span>
+                    <span className="bar" ></span> */}
                   </div>
       </nav>
     </Fragment>
