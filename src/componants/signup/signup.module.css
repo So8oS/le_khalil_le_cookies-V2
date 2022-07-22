@@ -31,8 +31,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 5rem;
-    
+    padding-bottom: 5rem;  
 }
 .form_input{
 
@@ -78,6 +77,54 @@ align-items: center;
     width: 12rem;
     
 }
+
+
+@media only screen and (max-width: 630px) {
+    .container{
+        width: 320px;
+        height: 630px;
+    }
+    .form{
+        padding-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0.3rem;
+    }
+    
+    
+    .input {
+        height: 3.2rem;
+        width: 16rem;
+    }
+    
+    .p{
+        font-size: 1.4rem;
+    }
+    
+    .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+    }
+    
+    .button{
+        font-size: 1rem;
+        height: 2.2rem;
+        width: 10rem;
+    }
+
+ 
+  }
 
 
 

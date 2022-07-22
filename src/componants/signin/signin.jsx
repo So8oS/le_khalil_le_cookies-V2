@@ -84,10 +84,10 @@ export const Signin = ({formswitch}) => {
             <div className={signin.buttons}>
                 <button type='submit' className={signin.button} >Sign in </button>
                 <button type='button' className={signin.button} onClick={signInWithGoogle} >Sign in with google</button>
+                <button onClick={formswitch} >Sign up</button>
             </div>
 
         </form>
-        <button onClick={formswitch} >Sign up</button>
 
     </div> 
   )

@@ -43,18 +43,12 @@ export const Signup = ({formswitch}) => {
           <div className={signup.title_container} >
               <h1  className={signup.title} >Sign up</h1>
           </div>
-          <div >
-            <p>Already have an acount?</p>
-            <p style={{cursor:"pointer",fontWeight:"bold"}}
-             onClick={formswitch}
-             >Sign in</p>
-          </div>
 
           <form className={signup.form} onSubmit={handleSubmit} >
 
               <div className={signup.form_info}>    
                 <div className={signup.form_input}>
-                  <p className={signup.p}>Name</p>
+                  <p className={signup.p}>Name:</p>
                   <input className={signup.input} onChange={handleChange} type="text" name="displayName" value={displayName} placeholder='Name' required />
                 </div>
 
@@ -73,6 +67,7 @@ export const Signup = ({formswitch}) => {
               <div className={signup.buttons}>
                 <button className={signup.button} >Sign up</button>
               </div>
+                <button onClick={formswitch} >Sign in</button>
               
           </form>
           

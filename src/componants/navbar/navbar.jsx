@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <Fragment>
       <nav className="container">
-        <Link className="nav-link" to= './' >
+        <Link onClick={() => {if (open == true) {setOpen(!open)}else{}}} className="nav-link" to= './' >
           <div className="title-container">
             <img src={Logo} className="title-logo" alt="Logo" />
             <h1 className="title-name">Le Khalil Le Cookies</h1>
