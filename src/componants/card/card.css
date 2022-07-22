@@ -5,7 +5,6 @@
     text-align: center;
     transition: all 0.07s;
     border-radius: 25px;
-    
     /* Option 1*/
     background: #ebcc9b;
     /* Option 2*/
@@ -20,44 +19,25 @@
   .card-container:hover {
     transform: scale(1.05, 1.05);
   }
-
-
-/* Bouncing Animation  */
-
-  /* @keyframes bounce2 {
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-30px);}
-    60% {transform: translateY(-15px);}
-  }
-  .card-container:hover {
-    animation-name: bounce2;
-  }
-   */
-   
   .card-img-container {
     padding-bottom: 40px;
 
   }
-
   .card-img{
   width: 350px;
   /* transform: scale(1.05, 1.05); */
   }
 
-
-  
   .name {
     height: 80px;
     /* text-align: center; */
   }
-  
   .details {
     font-size: 1.4rem;
     height: 115px;
     text-align: center;
     padding: 0px 10px 0px 10px;
   }
-  
   .item-name {
     font-family: 'Pacifico', cursive;
     text-align: center;
@@ -65,10 +45,7 @@
   .paying {
     text-align: center;
   }
-  
   .add {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
     border-radius: 28px;
     text-shadow: 1px 1px 3px #666666;
     font-family: "VT323", monospace;
@@ -88,7 +65,49 @@
      */
   }
   
-  .add:hover {
-    background: #a66f6f;
-    text-decoration: none;
+  @media only screen and (max-width: 630px) {
+    .card-container {
+      width: 320px;
+      overflow: hidden;
+      height: 630px;
+      text-align: center;
+      transition: all 0.07s;
+      border-radius: 25px;
+      /* Option 1*/
+      background: #ebcc9b;
+      /* Option 2*/
+      /* background: #6e8894; */
+  
+      /* outline: solid 0.3rem #252323; */
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      
+      /* animation-duration: 1s; */
+   
+    }
+    .card-container:hover {
+      transform: scale(1, 1);
+    }
+    .card-img-container {
+      padding-bottom: 30px;
+  
+    }
+    .card-img{
+    width: 320px;
+    /* transform: scale(1.05, 1.05); */
+    }
+  
+    .name {
+      height: 80px;
+      /* text-align: center; */
+    }
+    .details {
+      font-size: 1.4rem;
+      height: 115px;
+      text-align: center;
+      padding: 0px 15px 0px 15px;
+    }
+  
+  
+ 
   }
+

@@ -29,22 +29,15 @@ export const Card = ({ id,name, pic, disc, price }) => {
     <div>
       <div className="card-container">
         <div className="card-img-container">
-          <img className="card-img" src={pic} alt="" />
+          <img className="card-img" src={pic} alt="dessert pic" />
         </div>
-
         <div className="name">
           <h2 className="item-name">{name}</h2>
         </div>
-
-        <div className="details">
-          <p>{disc}</p>
-        </div>
-
-        <div className="paying">
-          <h3>{price}</h3>
-          <br />
+          <p className="details">{disc}</p>
+          <h3 className="paying">{price}</h3>
           <button className="add" onClick={handleClick}>Add to cart</button>
-        </div>
+       
       </div>
     </div>
   );
