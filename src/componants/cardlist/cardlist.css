@@ -1,7 +1,15 @@
-.card-list {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.card-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+  margin: 5rem 5rem 5rem 5rem ;
+}
 
- 
+
+@media only screen and (max-width: 630px) {
+  .card-list{
+    margin: 1rem 5rem 5rem 5rem ;
+  }
+  
+ }

@@ -7,9 +7,6 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* https://getcssscan.com/css-box-shadow-examples */
-    
-    
-
   }
   
   .title-container {
@@ -34,6 +31,7 @@
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    margin-right: 5px;
   }
   
   .nav-item {
@@ -63,6 +61,7 @@
   @media only screen and (max-width: 630px) {
     .hamburger{
       display: block;
+      margin-right: 5px;
     }
     .hamburger .active .bar:nth-child(2){
       opacity: 0;
@@ -84,6 +83,7 @@
       width: 100%;
       text-align: center;
       transition: 0.3s;
+      
     }
 
     .nav-item{
@@ -111,9 +111,9 @@
       font-size: 1rem;
     }
 
-  }
+  } */
 
-  @media only screen and (max-width: 475px) {
+  /* @media only screen and (max-width: 475px) {
     .title-name {
       margin-left: 0px;
       font-size: 0.8rem;
