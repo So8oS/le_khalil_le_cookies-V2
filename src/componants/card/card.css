@@ -65,24 +65,10 @@
      */
   }
   
-  @media only screen and (max-width: 630px) {
+  @media only screen and (max-width: 400px) {
     .card-container {
       width: 320px;
-      overflow: hidden;
       height: 630px;
-      text-align: center;
-      transition: all 0.07s;
-      border-radius: 25px;
-      /* Option 1*/
-      background: #ebcc9b;
-      /* Option 2*/
-      /* background: #6e8894; */
-  
-      /* outline: solid 0.3rem #252323; */
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-      
-      /* animation-duration: 1s; */
-   
     }
     .card-container:hover {
       transform: scale(1, 1);
@@ -93,12 +79,9 @@
     }
     .card-img{
     width: 320px;
-    /* transform: scale(1.05, 1.05); */
     }
-  
     .name {
       height: 80px;
-      /* text-align: center; */
     }
     .details {
       font-size: 1.4rem;
